@@ -12,6 +12,9 @@
 		F0A990C62BA0D4A500B9582C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A990C52BA0D4A500B9582C /* Assets.xcassets */; };
 		F0A990C92BA0D4A500B9582C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A990C82BA0D4A500B9582C /* Preview Assets.xcassets */; };
 		F0A990D02BA0E46300B9582C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A990CF2BA0E46300B9582C /* MenuItem.swift */; };
+		F0A990D42BA0ECE400B9582C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A990D32BA0ECE400B9582C /* DataService.swift */; };
+		F0A990D62BA0EFB900B9582C /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A990D52BA0EFB900B9582C /* MenuListRow.swift */; };
+		F0A990D82BA0F07800B9582C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A990D72BA0F07800B9582C /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F0A990C52BA0D4A500B9582C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0A990C82BA0D4A500B9582C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0A990CF2BA0E46300B9582C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		F0A990D32BA0ECE400B9582C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F0A990D52BA0EFB900B9582C /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
+		F0A990D72BA0F07800B9582C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				F0A990C52BA0D4A500B9582C /* Assets.xcassets */,
 				F0A990C72BA0D4A500B9582C /* Preview Content */,
 				F0A990CF2BA0E46300B9582C /* MenuItem.swift */,
+				F0A990D32BA0ECE400B9582C /* DataService.swift */,
+				F0A990D52BA0EFB900B9582C /* MenuListRow.swift */,
+				F0A990D72BA0F07800B9582C /* CustomButton.swift */,
 			);
 			path = "menu-challenger";
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			files = (
 				F0A990D02BA0E46300B9582C /* MenuItem.swift in Sources */,
 				F0A990C42BA0D4A400B9582C /* MenuView.swift in Sources */,
+				F0A990D82BA0F07800B9582C /* CustomButton.swift in Sources */,
 				F0A990C22BA0D4A400B9582C /* menu_challengerApp.swift in Sources */,
+				F0A990D62BA0EFB900B9582C /* MenuListRow.swift in Sources */,
+				F0A990D42BA0ECE400B9582C /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
